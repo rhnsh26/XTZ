@@ -1,0 +1,35 @@
+.main-container{
+    height: 100vh;
+    padding-top: 20vh;
+}
+.container{
+    align-items: center;
+}
+.branding{
+    padding-left: 20%;
+}
+.content{
+    width: 50%;
+    padding-left: 10%;
+}
+@media screen and (max-width: 768px) {
+    .main-container{
+        text-align: center;
+        margin: 0 1rem;
+    }
+    .container{
+        flex-wrap: wrap !important;
+    }
+    .branding{
+    margin: auto;
+    padding: 0;
+    padding-bottom: 2rem;
+    }
+    .content{
+        margin: auto;
+        width: 100%;
+        padding: 0;
+    }
+  }
+
+  
